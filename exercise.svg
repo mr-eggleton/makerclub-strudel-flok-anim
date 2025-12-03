@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="500"
+   height="500"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg51"
+   sodipodi:docname="exercise.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs51" />
+  <sodipodi:namedview
+     id="namedview51"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.626"
+     inkscape:cx="249.6925"
+     inkscape:cy="250"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg51" />
+  <!-- Desk outlines -->
+  <rect
+     x="51.84502"
+     y="149.09964"
+     width="400"
+     height="80"
+     stroke="#000000"
+     fill="#f0f0f0"
+     stroke-width="2"
+     id="rect1" />
+  <rect
+     x="51.84502"
+     y="336.28537"
+     width="400"
+     height="80"
+     stroke="#000000"
+     fill="#f0f0f0"
+     stroke-width="2"
+     id="rect2" />
+  <!-- ===== TOP ROW STUDENTS ===== -->
+  <!-- Student8 -->
+  <g
+     id="student8"
+     transform="translate(1.8450185,72.285363)">
+    <ellipse
+       cx="90"
+       cy="50"
+       rx="20"
+       ry="18"
+       stroke="#000000"
+       fill="#d9d9d9"
+       id="ellipse2" />
+    <path
+       d="m 70,30 q 20,-20 40,0"
+       stroke="#000000"
+       id="path2" />
+    <circle
+       cx="82"
+       cy="50"
+       r="2"
+       fill="#000000"
+       id="circle2" />
+    <circle
+       cx="98"
+       cy="50"
+       r="2"
+       fill="#000000"
+       id="circle3" />
+    <path
+       d="m 82,58 q 8,4 16,0"
+       stroke="#000000"
+       id="path3" />
+    <rect
+       x="70"
+       y="70"
+       width="40"
+       height="40"
+       stroke="#000000"
+       fill="#f2f2f2"
+       id="rect3" />
+    <path
+       d="m 70,90 q 20,10 40,0"
+       stroke="#000000"
+       id="path4" />
+  </g>
+  <rect
+     id="keyboard8"
+     x="71.845016"
+     y="192.28537"
+     width="40"
+     height="15"
+     stroke="#000000"
+     fill="#e0e0e0" />
+  <path
+     d="m 73.845018,195.28536 m 6,0 m 6,0 m 6,0 m 6,0 m 6.000002,0"
+     stroke="#000000"
+     id="path5" />
+  <path
+     d="M 73.845018,202.28536 H 103.84502"
+     stroke="#000000"
+     id="path6" />
+  <!-- Space bar -->
+  <g
+     id="note8"
+     transform="translate(1.8450185,72.285363)">
+    <circle
+       cx="90"
+       cy="10"
+       r="4"
+       fill="#000000"
+       id="circle6" />
+    <line
+       x1="94"
+       y1="10"
+       x2="94"
+       y2="0"
+       stroke="#000000"
+       id="line6" />
+    <path
+       d="m 94,0 q 4,-2 6,0"
+       stroke="#000000"
+       id="path7" />
+  </g>
+  <!-- Student7 -->
+  <g
+     id="student7"
+     transform="translate(1.8450185,72.285363)">
+    <circle
+       cx="190"
+       cy="50"
+       r="20"
+       stroke="#000000"
+       fill="#e0e0e0"
+       id="circle7" />
+    <line
+       x1="170"
+       y1="30"
+       x2="210"
+       y2="30"
+       stroke="#000000"
+       id="line7" />
+    <circle
+       cx="182"
+       cy="50"
+       r="2"
+       fill="#000000"
+       id="circle8" />
+    <circle
+       cx="198"
+       cy="50"
+       r="2"
+       fill="#000000"
+       id="circle9" />
+    <path
+       d="m 182,58 q 8,4 16,0"
+       stroke="#000000"
+       id="path9" />
+    <rect
+       x="170"
+       y="70"
+       width="40"
+       height="40"
+       stroke="#000000"
+       fill="#e6e6e6"
+       id="rect9" />
+    <path
+       d="m 170,90 q 20,10 40,0"
+       stroke="#000000"
+       id="path10" />
+  </g>
+  <rect
+     id="keyboard7"
+     x="171.84502"
+     y="192.28537"
+     width="40"
+     height="15"
+     stroke="#000000"
+     fill="#e0e0e0" />
+  <path
+     d="m 173.84502,195.28536 m 6,0 m 6,0 m 6,0 m 6,0 m 6,0"
+     stroke="#000000"
+     id="path11" />
+  <path
+     d="m 173.84502,202.28536 h 30"
+     stroke="#000000"
+     id="path12" />
+  <g
+     id="note7"
+     transform="translate(1.8450185,72.285363)">
+    <circle
+       cx="190"
+       cy="10"
+       r="4"
+       fill="#000000"
+       id="circle12" />
+    <line
+       x1="194"
+       y1="10"
+       x2="194"
+       y2="0"
+       stroke="#000000"
+       id="line12" />
+    <path
+       d="m 194,0 q 4,-2 6,0"
+       stroke="#000000"
+       id="path13" />
+  </g>
+  <!-- Student6 -->
+  <g
+     id="student6"
+     transform="translate(1.8450185,72.285363)">
+    <ellipse
+       cx="290"
+       cy="50"
+       rx="18"
+       ry="22"
+       stroke="#000000"
+       fill="#d9d9d9"
+       id="ellipse13" />
+    <path
+       d="m 272,30 q 18,-20 36,0"
+       stroke="#000000"
+       id="path14" />
+    <circle
+       cx="282"
+       cy="50"
+       r="2"
+       fill="#000000"
+       id="circle14" />
+    <circle
+       cx="298"
+       cy="50"
+       r="2"
+       fill="#000000"
+       id="circle15" />
+    <path
+       d="m 282,58 q 8,4 16,0"
+       stroke="#000000"
+       id="path15" />
+    <rect
+       x="270"
+       y="70"
+       width="40"
+       height="40"
+       stroke="#000000"
+       fill="#f2f2f2"
+       id="rect15" />
+    <path
+       d="m 270,90 q 20,10 40,0"
+       stroke="#000000"
+       id="path16" />
+  </g>
+  <rect
+     id="keyboard6"
+     x="271.84503"
+     y="192.28537"
+     width="40"
+     height="15"
+     stroke="#000000"
+     fill="#e0e0e0" />
+  <path
+     d="m 273.84502,195.28536 m 6,0 m 6,0 m 6,0 m 6,0 m 6,0"
+     stroke="#000000"
+     id="path17" />
+  <path
+     d="m 273.84502,202.28536 h 30"
+     stroke="#000000"
+     id="path18" />
+  <g
+     id="note6"
+     transform="translate(1.8450185,72.285363)">
+    <circle
+       cx="290"
+       cy="10"
+       r="4"
+       fill="#000000"
+       id="circle18" />
+    <line
+       x1="294"
+       y1="10"
+       x2="294"
+       y2="0"
+       stroke="#000000"
+       id="line18" />
+    <path
+       d="m 294,0 q 4,-2 6,0"
+       stroke="#000000"
+       id="path19" />
+  </g>
+  <!-- Student5 -->
+  <g
+     id="student5"
+     transform="translate(1.8450185,72.285363)">
+    <circle
+       cx="390"
+       cy="50"
+       r="20"
+       stroke="#000000"
+       fill="#e0e0e0"
+       id="circle19" />
+    <path
+       d="m 370,30 h 40"
+       stroke="#000000"
+       id="path20" />
+    <circle
+       cx="382"
+       cy="50"
+       r="2"
+       fill="#000000"
+       id="circle20" />
+    <circle
+       cx="398"
+       cy="50"
+       r="2"
+       fill="#000000"
+       id="circle21" />
+    <path
+       d="m 382,58 q 8,4 16,0"
+       stroke="#000000"
+       id="path21" />
+    <rect
+       x="370"
+       y="70"
+       width="40"
+       height="40"
+       stroke="#000000"
+       fill="#e6e6e6"
+       id="rect21" />
+    <path
+       d="m 370,90 q 20,10 40,0"
+       stroke="#000000"
+       id="path22" />
+  </g>
+  <rect
+     id="keyboard5"
+     x="371.84503"
+     y="192.28537"
+     width="40"
+     height="15"
+     stroke="#000000"
+     fill="#e0e0e0" />
+  <path
+     d="m 373.84502,195.28536 m 6,0 m 6,0 m 6,0 m 6,0 m 6,0"
+     stroke="#000000"
+     id="path23" />
+  <path
+     d="m 373.84502,202.28536 h 30"
+     stroke="#000000"
+     id="path24" />
+  <g
+     id="note5"
+     transform="translate(1.8450185,72.285363)">
+    <circle
+       cx="390"
+       cy="10"
+       r="4"
+       fill="#000000"
+       id="circle24" />
+    <line
+       x1="394"
+       y1="10"
+       x2="394"
+       y2="0"
+       stroke="#000000"
+       id="line24" />
+    <path
+       d="m 394,0 q 4,-2 6,0"
+       stroke="#000000"
+       id="path25" />
+  </g>
+  <!-- ===== BOTTOM ROW STUDENTS ===== -->
+  <!-- Student1 -->
+  <g
+     id="student1"
+     transform="translate(1.8450185,36.285363)">
+    <ellipse
+       cx="90"
+       cy="270"
+       rx="18"
+       ry="22"
+       stroke="#000000"
+       fill="#d9d9d9"
+       id="ellipse25" />
+    <path
+       d="m 72,250 q 18,-20 36,0"
+       stroke="#000000"
+       id="path26" />
+    <circle
+       cx="82"
+       cy="270"
+       r="2"
+       fill="#000000"
+       id="circle26" />
+    <circle
+       cx="98"
+       cy="270"
+       r="2"
+       fill="#000000"
+       id="circle27" />
+    <path
+       d="m 82,278 q 8,4 16,0"
+       stroke="#000000"
+       id="path27" />
+    <path
+       d="m 70,290 h 40 l -20,20 z"
+       stroke="#000000"
+       fill="#e6e6e6"
+       id="path28" />
+    <path
+       d="m 70,310 q 20,10 40,0"
+       stroke="#000000"
+       id="path29" />
+  </g>
+  <rect
+     id="keyboard1"
+     x="71.845016"
+     y="366.28537"
+     width="40"
+     height="15"
+     stroke="#000000"
+     fill="#e0e0e0" />
+  <path
+     d="m 73.845018,369.28536 m 6,0 m 6,0 m 6,0 m 6,0 m 6.000002,0"
+     stroke="#000000"
+     id="path30" />
+  <path
+     d="M 73.845018,376.28536 H 103.84502"
+     stroke="#000000"
+     id="path31" />
+  <g
+     id="note1"
+     transform="translate(1.8450185,36.285363)">
+    <circle
+       cx="90"
+       cy="230"
+       r="4"
+       fill="#000000"
+       id="circle31" />
+    <line
+       x1="94"
+       y1="230"
+       x2="94"
+       y2="220"
+       stroke="#000000"
+       id="line31" />
+    <path
+       d="m 94,220 q 4,-2 6,0"
+       stroke="#000000"
+       id="path32" />
+  </g>
+  <!-- Student2 -->
+  <g
+     id="student2"
+     transform="translate(1.8450185,36.285363)">
+    <circle
+       cx="190"
+       cy="270"
+       r="20"
+       stroke="#000000"
+       fill="#e0e0e0"
+       id="circle32" />
+    <line
+       x1="170"
+       y1="250"
+       x2="210"
+       y2="250"
+       stroke="#000000"
+       id="line32" />
+    <circle
+       cx="182"
+       cy="270"
+       r="2"
+       fill="#000000"
+       id="circle33" />
+    <circle
+       cx="198"
+       cy="270"
+       r="2"
+       fill="#000000"
+       id="circle34" />
+    <path
+       d="m 182,278 q 8,4 16,0"
+       stroke="#000000"
+       id="path34" />
+    <rect
+       x="170"
+       y="290"
+       width="40"
+       height="40"
+       stroke="#000000"
+       fill="#f2f2f2"
+       id="rect34" />
+    <path
+       d="m 170,310 q 20,10 40,0"
+       stroke="#000000"
+       id="path35" />
+  </g>
+  <rect
+     id="keyboard2"
+     x="171.84502"
+     y="366.28537"
+     width="40"
+     height="15"
+     stroke="#000000"
+     fill="#e0e0e0" />
+  <path
+     d="m 173.84502,369.28536 m 6,0 m 6,0 m 6,0 m 6,0 m 6,0"
+     stroke="#000000"
+     id="path36" />
+  <path
+     d="m 173.84502,376.28536 h 30"
+     stroke="#000000"
+     id="path37" />
+  <g
+     id="note2"
+     transform="translate(1.8450185,36.285363)">
+    <circle
+       cx="190"
+       cy="230"
+       r="4"
+       fill="#000000"
+       id="circle37" />
+    <line
+       x1="194"
+       y1="230"
+       x2="194"
+       y2="220"
+       stroke="#000000"
+       id="line37" />
+    <path
+       d="m 194,220 q 4,-2 6,0"
+       stroke="#000000"
+       id="path38" />
+  </g>
+  <!-- Student3 -->
+  <g
+     id="student3"
+     transform="translate(1.8450185,36.285363)">
+    <ellipse
+       cx="290"
+       cy="270"
+       rx="20"
+       ry="18"
+       stroke="#000000"
+       fill="#d9d9d9"
+       id="ellipse38" />
+    <path
+       d="m 270,250 h 40"
+       stroke="#000000"
+       id="path39" />
+    <circle
+       cx="282"
+       cy="270"
+       r="2"
+       fill="#000000"
+       id="circle39" />
+    <circle
+       cx="298"
+       cy="270"
+       r="2"
+       fill="#000000"
+       id="circle40" />
+    <path
+       d="m 282,278 q 8,4 16,0"
+       stroke="#000000"
+       id="path40" />
+    <path
+       d="m 270,290 h 40 l -20,20"
+       stroke="#000000"
+       fill="#e6e6e6"
+       id="path41" />
+    <path
+       d="m 270,310 q 20,10 40,0"
+       stroke="#000000"
+       id="path42" />
+  </g>
+  <rect
+     id="keyboard3"
+     x="271.84503"
+     y="366.28537"
+     width="40"
+     height="15"
+     stroke="#000000"
+     fill="#e0e0e0" />
+  <path
+     d="m 273.84502,369.28536 m 6,0 m 6,0 m 6,0 m 6,0 m 6,0"
+     stroke="#000000"
+     id="path43" />
+  <path
+     d="m 273.84502,376.28536 h 30"
+     stroke="#000000"
+     id="path44" />
+  <g
+     id="note3"
+     transform="translate(1.8450185,36.285363)">
+    <circle
+       cx="290"
+       cy="230"
+       r="4"
+       fill="#000000"
+       id="circle44" />
+    <line
+       x1="294"
+       y1="230"
+       x2="294"
+       y2="220"
+       stroke="#000000"
+       id="line44" />
+    <path
+       d="m 294,220 q 4,-2 6,0"
+       stroke="#000000"
+       id="path45" />
+  </g>
+  <!-- Student4 -->
+  <g
+     id="student4"
+     transform="translate(1.8450185,36.285363)">
+    <circle
+       cx="390"
+       cy="270"
+       r="20"
+       stroke="#000000"
+       fill="#e0e0e0"
+       id="circle45" />
+    <path
+       d="m 370,250 q 20,-20 40,0"
+       stroke="#000000"
+       id="path46" />
+    <circle
+       cx="382"
+       cy="270"
+       r="2"
+       fill="#000000"
+       id="circle46" />
+    <circle
+       cx="398"
+       cy="270"
+       r="2"
+       fill="#000000"
+       id="circle47" />
+    <path
+       d="m 382,278 q 8,4 16,0"
+       stroke="#000000"
+       id="path47" />
+    <rect
+       x="370"
+       y="290"
+       width="40"
+       height="40"
+       stroke="#000000"
+       fill="#f2f2f2"
+       id="rect47" />
+    <path
+       d="m 370,310 q 20,10 40,0"
+       stroke="#000000"
+       id="path48" />
+  </g>
+  <rect
+     id="keyboard4"
+     x="371.84503"
+     y="366.28537"
+     width="40"
+     height="15"
+     stroke="#000000"
+     fill="#e0e0e0" />
+  <path
+     d="m 373.84502,369.28536 m 6,0 m 6,0 m 6,0 m 6,0 m 6,0"
+     stroke="#000000"
+     id="path49" />
+  <path
+     d="m 373.84502,376.28536 h 30"
+     stroke="#000000"
+     id="path50" />
+  <g
+     id="note4"
+     transform="translate(1.8450185,36.285363)">
+    <circle
+       cx="390"
+       cy="230"
+       r="4"
+       fill="#000000"
+       id="circle50" />
+    <line
+       x1="394"
+       y1="230"
+       x2="394"
+       y2="220"
+       stroke="#000000"
+       id="line50" />
+    <path
+       d="m 394,220 q 4,-2 6,0"
+       stroke="#000000"
+       id="path51" />
+  </g>
+</svg>

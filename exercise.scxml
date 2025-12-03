@@ -1,0 +1,196 @@
+
+<scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" initial="Room">
+  <datamodel>
+    <data id="barCount" expr="0"/>
+    <data id="typingActive" expr="false"/>
+    <data id="currentBigChangePlayer" expr="1"/>
+    <data id="Person1_ready" expr="true"/>
+    <data id="Person2_ready" expr="true"/>
+    <data id="Person3_ready" expr="true"/>
+    <data id="Person4_ready" expr="true"/>
+  </datamodel>
+
+  <state id="Room">
+    <parallel>
+      <!-- Person 1 -->
+      <state id="Person1" initial="Watching">
+        <state id="Watching">
+          <transition event="Bar" cond="currentBigChangePlayer == 1" target="PlayingBigChange">
+            <assign location="barCount" expr="1"/>
+          </transition>
+          <transition event="Bar" cond="!typingActive and Person1_ready" target="TypingSmallChange">
+            <assign location="typingActive" expr="true"/>
+            <assign location="barCount" expr="1"/>
+          </transition>
+          <transition event="Bar" cond="typingActive or !Person1_ready" target="Waiting"/>
+        </state>
+
+        <state id="TypingSmallChange">
+          <transition event="Bar" cond="barCount < 4" target="TypingSmallChange">
+            <assign location="barCount" expr="barCount + 1"/>
+          </transition>
+          <transition event="Bar" cond="barCount == 4" target="TypingBigChange">
+            <assign location="typingActive" expr="false"/>
+          </transition>
+        </state>
+
+        <state id="TypingBigChange">
+          <transition event="Bar" cond="currentBigChangePlayer == 1" target="PlayingBigChange">
+            <assign location="barCount" expr="1"/>
+          </transition>
+        </state>
+
+        <state id="PlayingBigChange">
+          <transition event="Bar" cond="barCount < 4" target="PlayingBigChange">
+            <assign location="barCount" expr="barCount + 1"/>
+          </transition>
+          <transition event="Bar" cond="barCount == 4" target="Waiting">
+            <assign location="currentBigChangePlayer" expr="nextReadyPlayer()"/>
+          </transition>
+        </state>
+
+        <state id="Waiting">
+          <transition event="Bar" cond="!typingActive and Person1_ready" target="TypingSmallChange">
+            <assign location="typingActive" expr="true"/>
+            <assign location="barCount" expr="1"/>
+          </transition>
+        </state>
+      </state>
+
+      <!-- Person 2 -->
+      <state id="Person2" initial="Watching">
+        <state id="Watching">
+          <transition event="Bar" cond="currentBigChangePlayer == 2" target="PlayingBigChange">
+            <assign location="barCount" expr="1"/>
+          </transition>
+          <transition event="Bar" cond="!typingActive and Person2_ready" target="TypingSmallChange">
+            <assign location="typingActive" expr="true"/>
+            <assign location="barCount" expr="1"/>
+          </transition>
+          <transition event="Bar" cond="typingActive or !Person2_ready" target="Waiting"/>
+        </state>
+
+        <state id="TypingSmallChange">
+          <transition event="Bar" cond="barCount < 4" target="TypingSmallChange">
+            <assign location="barCount" expr="barCount + 1"/>
+          </transition>
+          <transition event="Bar" cond="barCount == 4" target="TypingBigChange">
+            <assign location="typingActive" expr="false"/>
+          </transition>
+        </state>
+
+        <state id="TypingBigChange">
+          <transition event="Bar" cond="currentBigChangePlayer == 2" target="PlayingBigChange">
+            <assign location="barCount" expr="1"/>
+          </transition>
+        </state>
+
+        <state id="PlayingBigChange">
+          <transition event="Bar" cond="barCount < 4" target="PlayingBigChange">
+            <assign location="barCount" expr="barCount + 1"/>
+          </transition>
+          <transition event="Bar" cond="barCount == 4" target="Waiting">
+            <assign location="currentBigChangePlayer" expr="nextReadyPlayer()"/>
+          </transition>
+        </state>
+
+        <state id="Waiting">
+          <transition event="Bar" cond="!typingActive and Person2_ready" target="TypingSmallChange">
+            <assign location="typingActive" expr="true"/>
+            <assign location="barCount" expr="1"/>
+          </transition>
+        </state>
+      </state>
+
+      <!-- Person 3 -->
+      <state id="Person3" initial="Watching">
+        <state id="Watching">
+          <transition event="Bar" cond="currentBigChangePlayer == 3" target="PlayingBigChange">
+            <assign location="barCount" expr="1"/>
+          </transition>
+          <transition event="Bar" cond="!typingActive and Person3_ready" target="TypingSmallChange">
+            <assign location="typingActive" expr="true"/>
+            <assign location="barCount" expr="1"/>
+          </transition>
+          <transition event="Bar" cond="typingActive or !Person3_ready" target="Waiting"/>
+        </state>
+
+        <state id="TypingSmallChange">
+          <transition event="Bar" cond="barCount < 4" target="TypingSmallChange">
+            <assign location="barCount" expr="barCount + 1"/>
+          </transition>
+          <transition event="Bar" cond="barCount == 4" target="TypingBigChange">
+            <assign location="typingActive" expr="false"/>
+          </transition>
+        </state>
+
+        <state id="TypingBigChange">
+          <transition event="Bar" cond="currentBigChangePlayer == 3" target="PlayingBigChange">
+            <assign location="barCount" expr="1"/>
+          </transition>
+        </state>
+
+        <state id="PlayingBigChange">
+          <transition event="Bar" cond="barCount < 4" target="PlayingBigChange">
+            <assign location="barCount" expr="barCount + 1"/>
+          </transition>
+          <transition event="Bar" cond="barCount == 4" target="Waiting">
+            <assign location="currentBigChangePlayer" expr="nextReadyPlayer()"/>
+          </transition>
+        </state>
+
+        <state id="Waiting">
+          <transition event="Bar" cond="!typingActive and Person3_ready" target="TypingSmallChange">
+            <assign location="typingActive" expr="true"/>
+            <assign location="barCount" expr="1"/>
+          </transition>
+        </state>
+      </state>
+
+      <!-- Person 4 -->
+      <state id="Person4" initial="Watching">
+        <state id="Watching">
+          <transition event="Bar" cond="currentBigChangePlayer == 4" target="PlayingBigChange">
+            <assign location="barCount" expr="1"/>
+          </transition>
+          <transition event="Bar" cond="!typingActive and Person4_ready" target="TypingSmallChange">
+            <assign location="typingActive" expr="true"/>
+            <assign location="barCount" expr="1"/>
+          </transition>
+          <transition event="Bar" cond="typingActive or !Person4_ready" target="Waiting"/>
+        </state>
+
+        <state id="TypingSmallChange">
+          <transition event="Bar" cond="barCount < 4" target="TypingSmallChange">
+            <assign location="barCount" expr="barCount + 1"/>
+          </transition>
+          <transition event="Bar" cond="barCount == 4" target="TypingBigChange">
+            <assign location="typingActive" expr="false"/>
+          </transition>
+        </state>
+
+        <state id="TypingBigChange">
+          <transition event="Bar" cond="currentBigChangePlayer == 4" target="PlayingBigChange">
+            <assign location="barCount" expr="1"/>
+          </transition>
+        </state>
+
+        <state id="PlayingBigChange">
+          <transition event="Bar" cond="barCount < 4" target="PlayingBigChange">
+            <assign location="barCount" expr="barCount + 1"/>
+          </transition>
+          <transition event="Bar" cond="barCount == 4" target="Waiting">
+            <assign location="currentBigChangePlayer" expr="nextReadyPlayer()"/>
+          </transition>
+        </state>
+
+        <state id="Waiting">
+          <transition event="Bar" cond="!typingActive and Person4_ready" target="TypingSmallChange">
+            <assign location="typingActive" expr="true"/>
+            <assign location="barCount" expr="1"/>
+          </transition>
+        </state>
+      </state>
+    </parallel>
+  </state>
+</scxml>
